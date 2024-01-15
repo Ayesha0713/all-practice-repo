@@ -7,7 +7,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.btn-primary{
+/*.btn-primary{
     width: 180px;
     height: 64px;
     border-radius: 8px;
@@ -15,10 +15,23 @@
     color: #FFF;
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
     margin-top: 20px;
     margin-bottom: 50px;
+    cursor: pointer;
+}*/
+
+.btn-primary{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+
 }
 
 
@@ -77,4 +90,9 @@ nav li a{
     font-weight: 400;
     color: #727272;
     line-height: 26px;
+}
+
+.banner img{
+    padding-top: 20px;
+    width: 100%;
 }
